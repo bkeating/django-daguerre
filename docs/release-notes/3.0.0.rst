@@ -1,3 +1,9 @@
+3.0.1 (2024-09-09)
+------------------
+
+* Added official support for Django 4.0
+* Added official support for Python 3.10 and 3.11
+
 3.0.0 (2020-04-08)
 ------------------
 

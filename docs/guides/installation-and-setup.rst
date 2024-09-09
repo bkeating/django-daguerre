@@ -43,9 +43,9 @@ Now you're ready to :doc:`use Daguerre's template tags </guides/template-tags>`!
 Versions and Requirements
 -------------------------
 
-* Python 3.5+
+* Python 3.10+
 * Pillow
-* Django 1.11 – 3.0
+* Django 4.0+
 
 Daguerre *may* work with earlier versions of these packages, but they
 are not officially supported.

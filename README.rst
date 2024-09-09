@@ -27,9 +27,9 @@ your models; it **Just Works**.
 Requirements
 ------------
 
-* Python 3.5+
+* Python 3.10+
 * Pillow
-* Django 1.11 – 3.0
+* Django 4.0+
 
 Daguerre *may* work with earlier or later versions of these packages, but they are not officially supported.
 
