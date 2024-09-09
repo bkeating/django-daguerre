@@ -128,9 +128,9 @@ class Fit(Adjustment):
         # Choose a resize filter based on whether
         # we're upscaling or downscaling.
         if new_width < image_width:
-            f = Image.ANTIALIAS
+            f = Image.Resampling.LANCZOS
         else:
-            f = Image.BICUBIC
+            f = Image.Resampling.BICUBIC
 
         return exif_aware_resize(image, (new_width, new_height), f)
     adjust.uses_areas = False
